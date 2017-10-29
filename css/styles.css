@@ -1,0 +1,76 @@
+body{
+    font-family: Arial,sans-serif;
+    color: grey;
+    padding:0;
+    margin: 0;
+    }
+div {
+    box-sizing: border-box;
+}
+header{
+    background:0 ;
+    height: 0px;
+}
+.container{
+    width: 1200px;
+    border: 100px ;
+    margin: 150px 100px ;
+    padding: 20px;
+
+}
+.Name{
+font-size: 40px;
+    color: grey;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 20px;
+    color: grey;
+    text-transform: uppercase;
+    margin: 0 0 25px 0 ;
+}
+h2{
+    width: 450px;
+    font-size: 10px;
+    color: grey;
+    text-transform: uppercase;
+}
+h3{
+    background: orange;
+    color: black;
+    float: left;
+    border-radius: 3px;
+    display: block;
+    width: 100px;
+    padding: 10px 20px;
+    margin: 0 auto ;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+h4{
+    background: orange;
+    color: black;
+    border-radius: 3px;
+    display: block;
+    width: 100px;
+    padding: 10px 20px;
+    margin: 0 0 25px 0 ;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p{
+    margin: 25px 0 ;
+    text-align: center;
+}
+.Reference p{
+    margin: 25px 0 ;
+    float: left;
+    text-align: center;
+
+
+}
