@@ -1,76 +1,202 @@
 body{
     font-family: Arial,sans-serif;
-    color: grey;
-    padding:0;
-    margin: 0;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #707070;
     }
 div {
     box-sizing: border-box;
 }
-header{
-    background:0 ;
-    height: 0px;
+.Name{
+    color:#707070 ;
+    height: 25px;
+    font-size: 25px;
+    font-weight: 700;
 }
-.container{
-    width: 1200px;
-    border: 100px ;
-    margin: 150px 100px ;
-    padding: 20px;
+.profession{
+    margin: 15px 0;
+    color: #707070;
+    font-size: 20px;
+    font-weight: 600;
+}
+.info{
+    display: block;
+    margin: 15px 0 0 0 ;
+}
+.Phonenumber{
+    display: block;
+}
+
+.avatar{
+
+    height: 260px;
+    width: 260px;
+    margin: 45px auto;
+    border-radius: 5px;
+}
+.About_me{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    left: 400px;
+    top: 165px;
+}
+.titleAboutMe {
+    background: orange;
+    color: #7B68EE;
+    font-size: 20px;
+    width: 100px;
+    font-weight: 700;
 
 }
-.Name{
-font-size: 40px;
-    color: grey;
-    text-transform: uppercase;
+.descriptionAboutMe{
+    width: 500px;
+    height: 125px;
+    font-size: medium;
+    margin: 15px 0;
 }
-h1{
+.Education{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    left: 400px;
+    top: 300px;
+}
+.titleEducation{
+    background: orange;
+    color: #7B68EE;
     font-size: 20px;
-    color: grey;
-    text-transform: uppercase;
-    margin: 0 0 25px 0 ;
+    width: 100px;
+    font-weight: 700;
 }
-h2{
-    width: 450px;
-    font-size: 10px;
-    color: grey;
-    text-transform: uppercase;
+.descriptionEducation{
+    margin: 15px 0;
+    width: 500px;
+    height: 125px;
+    font-size: medium;
+}
+.Experience{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    left: 400px;
+    top: 450px;
+}
+.titleExperience{
+    background: orange;
+    color: #7B68EE;
+    font-size: 20px;
+    width: 120px;
+    font-weight: 700;
+}
+.descriptionBlok{
+    margin: 0;
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    top: 50px;
+}
+.descriptionBlokOne{
+    margin: 40px 0;
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    top: 50px;
+}
+.descriptionBlokTwo{
+    margin: 40px 0;
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    top: 50px;
+}
+.Reference{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    top:450px;
+}
+.titleReference{
+    background: orange;
+    color: #7B68EE;
+    font-size: 20px;
+    width: 100px;
+    font-weight: 700;
+}
+.descriptionReference{
+    margin: 40px 0;
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    top: 50px;
+}
+.ref_one{
+
+    font-size: 20px;
+    width: 50px;
+    font-weight:50px;
+    float: left;
+
+}
+.ref_two{
+    font-size: 20px;
+    width: 50px;
+    font-weight:50px;
+    float: right;
+
+}
+.Skills{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 0;
+    right: 400px;
+}
+.titleSkills{
+    background: orange;
+    color: #7B68EE;
+    font-size: 20px;
+    width: 100px;
+    font-weight: 700;
 }
 h3{
-    background: orange;
-    color: black;
+    margin: 20px 0;
+    width: 20px;
+    height: 25px;
+    font-size: medium;
+    top: auto;
+}
+.blokOne{
+    background:#707070;
+    border: white;
+    color: #707070;
+    font-size: 20px;
+    width: 50px;
+    font-weight:50px;
     float: left;
-    border-radius: 3px;
-    display: block;
-    width: 100px;
-    padding: 10px 20px;
-    margin: 0 auto ;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
-
+    border: groove;
 }
-h4{
-    background: orange;
-    color: black;
-    border-radius: 3px;
-    display: block;
-    width: 100px;
-    padding: 10px 20px;
-    margin: 0 0 25px 0 ;
-    text-decoration:none;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-p{
-    margin: 25px 0 ;
-    text-align: center;
-}
-.Reference p{
-    margin: 25px 0 ;
+.BlokTwo{
     float: left;
-    text-align: center;
-
+    width: auto;
+    border: groove;
+    /*border-color: #707070 ;*/
+    font-size: 20px;
+    width: 100px;
+    font-weight: 100px;
+    color:white;
+}
+.Software{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 450px;
+}
+.titleSoftware{
+    background: orange;
+    color: #7B68EE;
+    font-size: 20px;
+    width: 100px;
+    font-weight: 700;
 
 }
